@@ -1,0 +1,116 @@
+/*FONTES*/
+@font-face {
+    font-family: Inter_Thin;
+    src: url(static/Inter-Thin.ttf);
+}
+
+@font-face {
+    font-family: Inter_Regular;
+    src: url(static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter_Bold;
+    src: url(static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter_Medium;
+    src: url(static/Inter-Medium.ttf);
+}
+
+/*GENERALIZAÇÃO*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(51,0,255);
+    background: linear-gradient(90deg, rgba(51,0,255,1) 0%, rgba(135,43,125,1) 100%);    
+}
+
+/*HEADER*/
+
+section {
+    margin: auto;
+    width: 350px;
+    height: 380px;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    top: 150px;
+}
+
+.texto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: Inter_Medium;
+    font-size: 25px;
+}
+
+img {
+    position: relative;
+    bottom: 58px;
+    left: 320px;
+}
+
+/*CADASTRO*/
+
+.cadastro {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter_Regular;
+    font-size: 13px;
+}
+
+.input-text{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 2px;
+}
+
+.forgot-password {
+    font-size: 11px;
+    position: relative;
+    top: 5px;
+}
+
+.forgot-password a{
+    text-decoration: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(51,0,255,1) 0%, rgba(135,43,125,1) 100%);
+    padding: 10px;
+    color: white;
+    font-family: Inter_Medium;
+    font-size: 15px;
+}
+
+.botao:hover {
+    background: rgb(51,0,255);
+    background: linear-gradient(140deg, rgba(51,0,255,1) 13%, rgba(245,0,218,1) 100%);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Inter_Medium;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+}
